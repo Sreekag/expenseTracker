@@ -17,7 +17,7 @@ const express = require('express')
 const mongoose = require('mongoose')
 const app = express()
 
-const Expense = require('./models/expense')
+const Expense = require('./expense')
 
 mongoose.connect('mongodb+srv://sreekag21aid:eAQYEisui9U9MFnM@cluster0.snuujqj.mongodb.net/?retryWrites=true&w=majority',{
     useUnifiedTopology: true
